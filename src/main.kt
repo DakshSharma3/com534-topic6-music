@@ -8,7 +8,7 @@ fun main() {
 
     titles.forEach { it ->
         println(it.getPlayingTime())
-        println(it.getAllSongs().forEach{ println(it.toString()) })}
+        it.getAllSongs().forEach{ println(it) }}
 
     val recordPlayer = RecordPlayer()
     recordPlayer.play(titles[0])
