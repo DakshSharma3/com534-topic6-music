@@ -4,6 +4,5 @@ fun main() {
 
     titles.forEach { it ->
         println(it.getPlayingTime())
-        println(it.getAllSongs().forEach{println(it.toString()) })
+        println(it.getAllSongs().forEach{ println(it.toString()) })}
     }
-}
